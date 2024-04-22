@@ -3,9 +3,8 @@ export default function taskBlock(trueOrFalse) {
   const task2 = true;
 
   if (trueOrFalse) {
-    /* eslint-disable no-unused-vars */
-    const task = true;
-    const task2 = false;
+    // This line will cause an error because task is already declared as a constant.
+    // const task = true;
   }
 
   return [task, task2];
