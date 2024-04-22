@@ -1485,6 +1485,5 @@ It iterates through the reportWithIterator object using a while loop. It appends
 The loop continues until the iterator is done, indicated by the done property being true. The function then slices the last three characters from the res string to remove the trailing pipe and space characters.
 
 ```
-
 Author
 Dev Isaac
