@@ -1,10 +1,13 @@
 export default function taskBlock(trueOrFalse) {
-  const task = false;
-  const task2 = true;
+  let task = false;
+  let task2 = true;
 
   if (trueOrFalse) {
-    // This line will cause an error because task is already declared as a constant.
-    // const task = true;
+    // We'll use a different variable name inside the conditional block
+    const newTask = true;
+    const newTask2 = false;
+    task = newTask;
+    task2 = newTask2;
   }
 
   return [task, task2];
