@@ -1,4 +1,4 @@
-// Append three handlers to the function
+// 2-then.js
 export default function handleResponseFromAPI(promise) {
   promise
     .then(() => {
