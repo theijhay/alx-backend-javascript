@@ -1,9 +1,13 @@
-// 2-then.js
-export default function handleResponseFromAPI(promise) {
-  promise
-    .then((response) => {
-      console.log('Got a response from the API');
-      return { status: 200, body: 'success', response };
-    })
-    .catch(() => new Error());
+export default async function handleResponseFromAPI(promise) {
+  try {
+    const response = await promise;
+    console.log('Got a response from the API');
+    return {
+      status: 200,
+      body: 'success',
+      response,
+    };
+  } catch (error) {
+    return new Error('The fake API is not working currently');
+  }
 }
