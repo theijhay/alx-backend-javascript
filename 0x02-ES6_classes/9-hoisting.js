@@ -1,4 +1,6 @@
-class HolbertonClass {
+/* eslint-disable no-underscore-dangle */
+/* eslint-disable max-classes-per-file */
+export class HolbertonClass {
   constructor(year, location) {
     this._year = year;
     this._location = location;
@@ -13,7 +15,7 @@ class HolbertonClass {
   }
 }
 
-class StudentHolberton {
+export class StudentHolberton {
   constructor(firstName, lastName, holbertonClass) {
     this._firstName = firstName;
     this._lastName = lastName;
@@ -29,7 +31,7 @@ class StudentHolberton {
   }
 
   get fullStudentDescription() {
-    return `${this._firstName} ${this._lastName} - ${this._holbertonClass.year} - ${this._holbertonClass.location}`;
+    return `${this.fullName} - ${this.holbertonClass.year} - ${this.holbertonClass.location}`;
   }
 }
 
@@ -43,5 +45,4 @@ const student4 = new StudentHolberton('Donald', 'Bush', class2019);
 const student5 = new StudentHolberton('Jason', 'Sandler', class2019);
 
 const listOfStudents = [student1, student2, student3, student4, student5];
-
 export default listOfStudents;
