@@ -1,17 +1,27 @@
+// 5-building.js
 export default class Building {
   constructor(sqft) {
-    // Store the sqft in a private property _sqft
     this._sqft = sqft;
+    // Check if the class is not the Building class itself and if the evacuationWarningMessage method is the default one from the Building prototype
+    if (this.constructor !== Building && this.evacuationWarningMessage === Building.prototype.evacuationWarningMessage) {
+      // Throw an error if the subclass does not override the evacuationWarningMessage method
+      throw new Error('Class extending Building must override evacuationWarningMessage');
+    }
   }
 
+  // Getter for sqft
   get sqft() {
-    // Getter for the _sqft property
     return this._sqft;
   }
 
+  // Setter for sqft
+  set sqft(value) {
+    this._sqft = value;
+  }
+
+  // Default implementation of evacuationWarningMessage
   evacuationWarningMessage() {
-    // This method is meant to be overridden by concrete subclasses
-    // If a subclass does not override this method, it will throw the following error
-    throw new Error('Class extending Building must override evacuationWarningMessage');
+    // Throw an error indicating that this method must be implemented by subclasses
+    throw new Error('evacuationWarningMessage must be implemented by subclasses');
   }
 }
