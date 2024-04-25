@@ -1,7 +1,7 @@
 0x02. ES6 classes
 =================
 
-OOP JavaScript ES6
+OOP  JavaScript  ES6
 
 - By Dev Isaac
 
@@ -94,8 +94,6 @@ Tasks
 
 mandatory
 
-Score: 100.00% (Checks completed: 0.00%)
-
 Implement a class named `ClassRoom`:
 
 - Prototype: `export default class ClassRoom`
@@ -156,8 +154,6 @@ However, in general, accessing _maxStudentsSize directly will work and log the v
 ### 1\. Let's make some classrooms
 
 mandatory
-
-Score: 100.00% (Checks completed: 0.00%)
 
 Import the `ClassRoom` class from `0-classroom.js`.
 
@@ -226,8 +222,6 @@ Each element in the array represents an instance of the ClassRoom class, with th
 
 mandatory
 
-Score: 0.00% (Checks completed: 0.00%)
-
 Implement a class named `HolbertonCourse`:
 
 - Constructor attributes:
@@ -289,8 +283,6 @@ bob@dylan:~$
 
 mandatory
 
-Score: 0.00% (Checks completed: 0.00%)
-
 Implement a class named `Currency`:
 
 - - Constructor attributes:
@@ -325,8 +317,6 @@ bob@dylan:~$
 ### 4\. Pricing
 
 mandatory
-
-Score: 0.00% (Checks completed: 0.00%)
 
 Import the class `Currency` from `3-currency.js`
 
@@ -371,8 +361,6 @@ bob@dylan:~$
 ### 5\. A Building
 
 mandatory
-
-Score: 0.00% (Checks completed: 0.00%)
 
 Implement a class named `Building`:
 
@@ -420,8 +408,6 @@ bob@dylan:~$
 
 mandatory
 
-Score: 0.00% (Checks completed: 0.00%)
-
 Import `Building` from `5-building.js`.
 
 Implement a class named `SkyHighBuilding` that extends from `Building`:
@@ -463,8 +449,6 @@ bob@dylan:~$
 
 mandatory
 
-Score: 0.00% (Checks completed: 0.00%)
-
 Implement a class named `Airport`:
 
 - Constructor attributes:
@@ -500,8 +484,6 @@ bob@dylan:~$
 ### 8\. Primitive - Holberton Class
 
 mandatory
-
-Score: 0.00% (Checks completed: 0.00%)
 
 Implement a class named `HolbertonClass`:
 
@@ -539,8 +521,6 @@ bob@dylan:~$
 ### 9\. Hoisting
 
 mandatory
-
-Score: 0.00% (Checks completed: 0.00%)
 
 Fix this code and make it work.
 
@@ -659,8 +639,6 @@ bob@dylan:~$
 
 mandatory
 
-Score: 0.00% (Checks completed: 0.00%)
-
 Implement a class named `Car`:
 
 - Constructor attributes:
@@ -711,8 +689,6 @@ bob@dylan:~$
 ### 11\. EVCar
 
 # advanced
-
-Score: 0.00% (Checks completed: 0.00%)
 
 Import `Car` from `10-car.js`.
 
