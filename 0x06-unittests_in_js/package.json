@@ -1,13 +1,13 @@
 {
-    "name": "task_0",
+    "name": "0x06-unittests_in_js",
     "version": "1.0.0",
+    "description": "Unit tests in JS",
     "scripts": {
         "test": "mocha"
     },
     "devDependencies": {
-        "chai": "^5.1.1",
-        "esm": "^3.2.25",
+        "chai": "^4.3.4",
         "mocha": "^10.4.0"
-    },
-    "type": "module"
+    }
+
 }
