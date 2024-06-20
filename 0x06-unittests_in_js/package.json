@@ -2,7 +2,7 @@
     "name": "task_0",
     "version": "1.0.0",
     "scripts": {
-        "test": "mocha --require esm"
+        "test": "mocha"
     },
     "devDependencies": {
         "chai": "^5.1.1",
